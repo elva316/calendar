@@ -1,0 +1,83 @@
+.jumbotron{
+    margin: 0;
+}
+.paral {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("/assets/cover.jpg");
+}
+h1 {
+    // color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    border-right: 4px solid rgba(255, 255, 255, 0);
+    margin-bottom: 40px;
+    background-image: url("/assets/color.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animation1 20s linear infinite;
+}
+
+.centering {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+.btn{
+    border: 2px solid white;
+    margin-right: 20px;
+    height: 70px;
+    width: 400px;
+}
+.btn:hover{
+    border-color: #0062cc;
+    background-color: #0062cc;
+    color: white;
+}
+
+.j2{
+    text-align: center;
+    background-color: #1a1e23;
+}
+
+#return-to-top {
+    font-size: 50px;
+    color: #fff;
+    position: fixed;
+    border: 5px solid #fff;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 100px;
+    margin-right: 10px;
+}
+
+#return-to-top:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(90, 47, 47, 0.2);
+    outline-color: rgba(161, 204, 7, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+@keyframes animation1{
+    0%{
+        background-position: left 0px top 10px;
+    }
+    40%{
+        background-position: left 800px top 10px;
+    }
+}

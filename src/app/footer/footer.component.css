@@ -1,0 +1,30 @@
+.container{
+    height: 100vh;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jumbotron{
+    background-color: #000000;
+}
+img{
+    border-radius: 50%;
+    width: 70px;
+}
+.p-2, a{
+    color: #fad703;
+    font-weight: 400;
+}

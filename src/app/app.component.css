@@ -1,0 +1,17 @@
+img{
+    width: 70px;
+    border: 2px solid #15a2b8;
+}
+button{
+    margin-right: 10px;
+}
+.navbar{
+    background-color: black;
+    opacity: .8;
+}
+@media only screen and (max-width: 970px) {
+    .navbar-brand span {
+        display: none;
+    }
+
+}
